@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="google.com" />
+<Content type="html"><![CDATA[
+
+<!DOCTYPE html>  
+<html>
+    <head>  
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+ 
+        <!-- STORMS H5SDK -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/images-google-com/5685aaa@main/h5Sdk.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/images-google-com/5685aaa@main/engine/phaser-3.24.1.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/images-google-com/5685aaa@main/game3.js"></script>
+    </head>
+
+     <body>
+        <div class="fontLoader" style="font-family: jetpackia;">-</div>
+        <img id="rotate_image" src="https://cdn.jsdelivr.net/gh/images-google-com/5685aaa@main/img/HB_ic_rotateScreen.png" alt="rotate_screen" class="center">
+        <div id="content">
+            <div id="phaser-canvas"></div>
+        </div>        
+    <style id="injectStyles">html, body{ background: none !important; }</style>
+</body>
+</html>  
+
+
+]]></Content>
+</Module>
